@@ -58,6 +58,66 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-UML-Instances" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/07/25/UML-Instances/" class="article-date">
+  <time datetime="2016-07-25T05:29:01.000Z" itemprop="datePublished">2016-07-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/25/UML-Instances/">UML Instances</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Abstractions-and-Instances"><a href="#Abstractions-and-Instances" class="headerlink" title="Abstractions and Instances"></a>Abstractions and Instances</h2><p><code>Here is a small example to help us understand abstractions and instances.</code></p>
+<p>There’s a fundamental difference between a three-bedroom house with a  basement and my three-bedroom house named Sanctuary. </p>
+<ul>
+<li><p>The former is an abstraction representing a certain kind of house with various properties; </p>
+</li>
+<li><p>The latter is a concrete instance of that abstraction, representing something that manifests itself in the real world, with real values for each of those properties.</p>
+</li>
+</ul>
+<p><strong>An instance is a concrete manifestation of an abstraction to which a set of operations can be applied and which has a state that stores the effects of the operations.</strong><br><strong>Instances don’t stand alone; they are almost always tied to an abstraction.</strong><br>E.g.</p>
+<ul>
+<li>an instance of a node is typically a computer that physically sits in a room; </li>
+<li>an instance of a component takes up some space on the file system; </li>
+<li>an instance of a customer record consumes some amount of physical memory. </li>
+<li>an instance of a flight envelope for an aircraft is something you can manipulate mathematically.</li>
+</ul>
+<h2 id="Class-and-Object"><a href="#Class-and-Object" class="headerlink" title="Class and Object"></a>Class and Object</h2><p><strong>Objects are instances of classes</strong></p>
+<h4 id="Note-Instance-and-object-are-largely-synonymous"><a href="#Note-Instance-and-object-are-largely-synonymous" class="headerlink" title="Note: Instance and object are largely synonymous."></a>Note: Instance and object are largely synonymous.</h4><p>From common usage, the concrete manifestation of a class is called an object. Objects are instances of classes, so it’s excruciatingly proper to say that <strong>all objects are instances</strong>, although some instances are not objects (for example, an instance of an association is really not an object, it’s just an instance, also known as a link). </p>
+<p><strong>The UML defines two standard stereotypes that apply to the dependency relationships among objects and among classes:</strong></p>
+<h5 id="1-instanceOf"><a href="#1-instanceOf" class="headerlink" title="1. instanceOf"></a>1. instanceOf</h5><p>Specifies that the client object is an instance of the supplier classifier. This is rarely shown graphically; it is usually shown using text notation following a colon.</p>
+<h5 id="2-instantiate"><a href="#2-instantiate" class="headerlink" title="2. instantiate"></a>2. instantiate</h5><p>Specifies that the client class creates instances of the supplier class.</p>
+<h2 id="Names"><a href="#Names" class="headerlink" title="Names"></a>Names</h2><center><br><img src="http://i2.piimg.com/4851/95a3c4d5261c4a87.png" alt=""><br></center><br><em>t</em> is the name of the instance, <em>Transaction</em> is the type of <em>t</em><br><br>The abstraction of the instance may be a simple name (such as  transaction ) or it may be a path name (such as <em>Multimedia::AudioStream</em> ) which is the abstraction’s name prefixed by the name of the package in which that abstraction lives.<br><br><center><br><img src="http://i2.piimg.com/4851/dde5113b36b05169.png" alt=""><br></center><br>## State<br>An object also has state, which in this sense encompasses all the properties of the object plus the current values of each of these properties (also including links and related objects, depending on your viewpoint). These properties include the attributes and associations of the object, as well as all its aggregate parts.<br><br>## Active Class<br>You can declare active classes that reify a process or thread, and in turn you can distinguish an instance of an active class.<br><center><br><img src="http://i2.piimg.com/4851/01c06d2cfa8450ce.png" alt=""><br></center>
+
+<h2 id="Next-Chapter-Object-Diagram"><a href="#Next-Chapter-Object-Diagram" class="headerlink" title="Next Chapter: Object Diagram"></a>Next Chapter: Object Diagram</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/07/25/UML-Instances/" data-id="cir1o7e1k0006cotv7x15cjyc" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UML-Note/">UML Note</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-UML-Packages" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/07/22/UML-Packages/" class="article-date">
@@ -90,7 +150,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/22/UML-Packages/" data-id="ciqymiazr00067otve4704sw0" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/22/UML-Packages/" data-id="cir1o7e1m0008cotv7xtudbsu" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UML-Note/">UML Note</a></li></ul>
@@ -174,7 +234,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/22/Java-Note-2/" data-id="ciqymiazc00007otvbnhmy8dn" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/22/Java-Note-2/" data-id="cir1o7e160000cotvohjf2vio" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-Note/">Java Note</a></li></ul>
@@ -225,7 +285,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/22/Java-Note-1/" data-id="ciqymiazo00057otvn3ozqlls" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/22/Java-Note-1/" data-id="cir1o7e1b0002cotvhn5r8fqy" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-Note/">Java Note</a></li></ul>
@@ -275,7 +335,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/22/My-First-Blog/" data-id="ciqymiazi00027otvz30s9uk9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/22/My-First-Blog/" data-id="cir1o7e1h0005cotvpe4oddwi" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-Note/">Java Note</a></li></ul>
@@ -322,7 +382,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/20/hello-world/" data-id="ciqymiazt00087otvm6q3omc2" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/20/hello-world/" data-id="cir1o7e1r000acotv8r8agrmp" class="article-share-link">Share</a>
       
       
     </footer>
@@ -347,6 +407,10 @@
       <ul>
         
           <li>
+            <a href="/2016/07/25/UML-Instances/">UML Instances</a>
+          </li>
+        
+          <li>
             <a href="/2016/07/22/UML-Packages/">UML Package :)</a>
           </li>
         
@@ -360,10 +424,6 @@
         
           <li>
             <a href="/2016/07/22/My-First-Blog/">My First Blog (2016.7.18)</a>
-          </li>
-        
-          <li>
-            <a href="/2016/07/20/hello-world/">Hello World</a>
           </li>
         
       </ul>
@@ -384,7 +444,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a><span class="archive-list-count">5</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a><span class="archive-list-count">6</span></li></ul>
     </div>
   </div>
 
